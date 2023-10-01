@@ -8,8 +8,9 @@ int	main()
 	cout.tie(nullptr);
 	ios::sync_with_stdio(false);
 
-	int	a, b;
+	double	a, b;
 	cin >> a >> b;
-	cout << a + b;
+	cout.precision(10);
+	cout << a / b << '\n';
 	return 0;
 }

@@ -8,8 +8,15 @@ int	main()
 	cout.tie(nullptr);
 	ios::sync_with_stdio(false);
 
-	int	a, b;
-	cin >> a >> b;
-	cout << a + b;
+	int	n, result;
+
+	result = 0;
+	for (int i = 0; i < 5; i++)
+	{
+		cin >> n;
+		result += (n * n);
+	}
+	result %= 10;
+	cout << result;
 	return 0;
 }

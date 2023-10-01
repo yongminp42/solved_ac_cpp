@@ -7,9 +7,8 @@ int	main()
 	cin.tie(nullptr);
 	cout.tie(nullptr);
 	ios::sync_with_stdio(false);
+	
+	cout << "Hello World!";
 
-	int	a, b;
-	cin >> a >> b;
-	cout << a + b;
 	return 0;
 }
