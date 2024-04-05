@@ -17,7 +17,7 @@ int	main()
 	for (int i = 0; i < n; i++)
 	{
 		if (arr[i] == 1 || arr[i] == 0)
-			continue ;
+			continue;
 		else if (arr[i] == 2)
 			count ++;
 		else
@@ -25,7 +25,7 @@ int	main()
 			for (int x = 2; x <= 100 && x < arr[i]; x++)
 			{	
 				if (arr[i] % x == 0)
-					break ;
+					break;
 				else if (x + 1 >= arr[i] || x == 100) // 이 부분에서 x == 100을 추가 안하여 100이상의 소수를 인식 못함
 					count ++;
 			}
