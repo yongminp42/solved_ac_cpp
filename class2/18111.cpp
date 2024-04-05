@@ -40,7 +40,3 @@ int main() {
   cout << result_time << " " << result_len;
   return 0;
 }
-
-    
-
-}
